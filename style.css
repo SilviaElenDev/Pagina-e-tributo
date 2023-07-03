@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color:#111A39 ;
+}
+
+.container{
+ background-image: url(./assets/Inserir\ um\ pouquinho\ de\ texto\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1366px;
+    height:2304px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 100px;
+}
+
+.vanGogh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    background-color: #111A39;
+    color: white;
+    margin-top: 100px;
+    border-radius: 50px;
+   margin-bottom: 300px;
+}
+
+.vanGogh img{
+    width: 850px; 
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.vanGogh_text{
+    padding: 50px;
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1366px;
+    margin: auto;
+}
+
+.imgs img{
+    width: 435px;
+    margin: 10px;
+    height: 435px;
+}
+
+.Galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.Titulo{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+figcaption{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
